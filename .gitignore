@@ -23,5 +23,6 @@ hs_err_pid*
 
 .gradle
 build
+!src/main/web/build
 .idea
 src/main/resources/static
