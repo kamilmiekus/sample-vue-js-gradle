@@ -4,7 +4,7 @@
 
 ## Build Setup
 
-###Windows
+### Windows
 ``` bash
 # Build backend
 gradlew.bat clean build
