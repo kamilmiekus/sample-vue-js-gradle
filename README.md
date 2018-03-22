@@ -4,20 +4,20 @@
 
 ## Build Setup
 
+###Windows
 ``` bash
-# build backend
+# Build backend
+gradlew.bat clean build
 
-##Unix
-gradlew clean build
+# Install npm modules
+gradlew.bat npmInstall
 
-# serve with hot reload at localhost:8080
-npm run dev
+# Build UI
+gradlew.bat buildUI
 
-# build for production with minification
-npm run build
+# Run the app!
+gradlew.bat bootRun
 
-# build for production and view the bundle analyzer report
-npm run build --report
+# The view is available at
+http://localhost:8080
 ```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
